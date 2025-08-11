@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Serenity - Art Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">ARTFOLIO</h1>
+            <nav class="nav">
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="artwork-detail">
+                <div class="artwork-nav">
+                    <a href="portfolio.html" class="back-btn">← Back to Portfolio</a>
+                </div>
+                
+                <div class="artwork-content">
+                    <div class="artwork-image-container">
+                        <img src="https://images.pexels.com/photos/1047540/pexels-photo-1047540.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Mountain Serenity" class="artwork-main-image">
+                        <button class="lightbox-btn" onclick="openLightbox('https://images.pexels.com/photos/1047540/pexels-photo-1047540.jpeg?auto=compress&cs=tinysrgb&w=1600')">View Full Size</button>
+                    </div>
+                    
+                    <div class="artwork-info">
+                        <h1 class="artwork-title">Mountain Serenity</h1>
+                        
+                        <div class="artwork-meta">
+                            <div class="meta-item">
+                                <span class="meta-label">Category:</span>
+                                <span class="meta-value">Landscape</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Year:</span>
+                                <span class="meta-value">2023</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Medium:</span>
+                                <span class="meta-value">Watercolor</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Dimensions:</span>
+                                <span class="meta-value">30" × 20"</span>
+                            </div>
+                        </div>
+                        
+                        <div class="artwork-description">
+                            <h3>Description</h3>
+                            <p>This peaceful landscape captures the tranquil beauty of mountain ranges at sunset. The soft, flowing watercolor technique creates an atmosphere of serenity and natural harmony, inviting the viewer to pause and appreciate the quiet majesty of the natural world.</p>
+                            
+                            <p>The piece explores the relationship between light and landscape, using the transparency of watercolor to create luminous effects that mirror the gentle transition from day to evening in mountainous terrain.</p>
+                            
+                            <h3>Location</h3>
+                            <p>Inspired by the Sierra Nevada mountain range, this painting was created from studies made during a week-long painting expedition. The golden hour light and atmospheric perspective capture the essence of these majestic peaks.</p>
+                        </div>
+                        
+                        <div class="artwork-navigation">
+                            <a href="artwork2.html" class="nav-artwork prev">← Previous</a>
+                            <a href="artwork4.html" class="nav-artwork next">Next →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img id="lightbox-image" src="" alt="Enlarged artwork">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Art Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

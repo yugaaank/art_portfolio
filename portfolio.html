@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Portfolio - Creative Showcase</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="portfolio.html" h1 class="logo">ARTFOLIO</a>
+
+        <nav class="nav">
+          <a href="portfolio.html" class="nav-link active">Portfolio</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <h2 class="hero-title">Creative Art Portfolio</h2>
+          <p class="hero-subtitle">
+            Discover unique artworks and creative expressions
+          </p>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <div class="container">
+          <div class="grid">
+            <!-- Artwork 1 -->
+            <article class="card card-tall">
+              <div class="card-image">
+                <img
+                  src="https://images.pexels.com/photos/1568607/pexels-photo-1568607.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Abstract Painting"
+                  loading="lazy"
+                />
+                <div class="card-overlay">
+                  <a href="artwork1.html" class="view-btn">View Details</a>
+                  <button
+                    class="lightbox-btn"
+                    onclick="openLightbox('https://images.pexels.com/photos/1568607/pexels-photo-1568607.jpeg?auto=compress&cs=tinysrgb&w=1200')"
+                  >
+                    Zoom
+                  </button>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Abstract Emotions</h3>
+                <p class="card-description">
+                  A vibrant exploration of color and form that captures the
+                  essence of human emotion.
+                </p>
+                <div class="card-meta">
+                  <span class="card-category">Abstract</span>
+                  <span class="card-date">2024</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Artwork 2 -->
+            <article class="card">
+              <div class="card-image">
+                <img
+                  src="https://images.pexels.com/photos/1570264/pexels-photo-1570264.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Portrait Study"
+                  loading="lazy"
+                />
+                <div class="card-overlay">
+                  <a href="artwork2.html" class="view-btn">View Details</a>
+                  <button
+                    class="lightbox-btn"
+                    onclick="openLightbox('https://images.pexels.com/photos/1570264/pexels-photo-1570264.jpeg?auto=compress&cs=tinysrgb&w=1200')"
+                  >
+                    Zoom
+                  </button>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Portrait Study</h3>
+                <p class="card-description">
+                  A detailed character study exploring light and shadow.
+                </p>
+                <div class="card-meta">
+                  <span class="card-category">Portrait</span>
+                  <span class="card-date">2024</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Artwork 3 -->
+            <article class="card card-wide">
+              <div class="card-image">
+                <img
+                  src="https://images.pexels.com/photos/1047540/pexels-photo-1047540.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Landscape Scene"
+                  loading="lazy"
+                />
+                <div class="card-overlay">
+                  <a href="artwork3.html" class="view-btn">View Details</a>
+                  <button
+                    class="lightbox-btn"
+                    onclick="openLightbox('https://images.pexels.com/photos/1047540/pexels-photo-1047540.jpeg?auto=compress&cs=tinysrgb&w=1200')"
+                  >
+                    Zoom
+                  </button>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Mountain Serenity</h3>
+                <p class="card-description">
+                  A peaceful landscape capturing the tranquil beauty of mountain
+                  ranges at sunset.
+                </p>
+                <div class="card-meta">
+                  <span class="card-category">Landscape</span>
+                  <span class="card-date">2023</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Commented out artworks 4-6
+
+
+            Artwork 4: Digital Dreams - Digital art piece exploring futuristic themes
+            Artwork 5: Still Life Composition - Classical still life with contemporary elements
+            Artwork 6: Urban Expression - Street art inspired piece reflecting city life
+            -->
+
+            <!-- More artworks -->
+            <article class="card card-wide">
+              <div class="card-image">
+                <img
+                  src="https://images.pexels.com/photos/1340588/pexels-photo-1340588.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Mixed Media"
+                  loading="lazy"
+                />
+                <div class="card-overlay">
+                  <a href="artwork7.html" class="view-btn">View Details</a>
+                  <button
+                    class="lightbox-btn"
+                    onclick="openLightbox('https://images.pexels.com/photos/1340588/pexels-photo-1340588.jpeg?auto=compress&cs=tinysrgb&w=1200')"
+                  >
+                    Zoom
+                  </button>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Mixed Media Exploration</h3>
+                <p class="card-description">
+                  An experimental piece combining traditional and digital
+                  techniques to create a unique visual narrative.
+                </p>
+                <div class="card-meta">
+                  <span class="card-category">Mixed Media</span>
+                  <span class="card-date">2024</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-image">
+                <img
+                  src="https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Nature Study"
+                  loading="lazy"
+                />
+                <div class="card-overlay">
+                  <a href="artwork8.html" class="view-btn">View Details</a>
+                  <button
+                    class="lightbox-btn"
+                    onclick="openLightbox('https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=1200')"
+                  >
+                    Zoom
+                  </button>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Nature's Patterns</h3>
+                <p class="card-description">
+                  Detailed study of natural forms and textures.
+                </p>
+                <div class="card-meta">
+                  <span class="card-category">Nature</span>
+                  <span class="card-date">2023</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+      <div class="lightbox-content">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-image" src="" alt="Enlarged artwork" />
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Art Portfolio. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait Study - Art Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">ARTFOLIO</h1>
+            <nav class="nav">
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="artwork-detail">
+                <div class="artwork-nav">
+                    <a href="portfolio.html" class="back-btn">← Back to Portfolio</a>
+                </div>
+                
+                <div class="artwork-content">
+                    <div class="artwork-image-container">
+                        <img src="https://images.pexels.com/photos/1570264/pexels-photo-1570264.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Portrait Study" class="artwork-main-image">
+                        <button class="lightbox-btn" onclick="openLightbox('https://images.pexels.com/photos/1570264/pexels-photo-1570264.jpeg?auto=compress&cs=tinysrgb&w=1600')">View Full Size</button>
+                    </div>
+                    
+                    <div class="artwork-info">
+                        <h1 class="artwork-title">Portrait Study</h1>
+                        
+                        <div class="artwork-meta">
+                            <div class="meta-item">
+                                <span class="meta-label">Category:</span>
+                                <span class="meta-value">Portrait</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Year:</span>
+                                <span class="meta-value">2024</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Medium:</span>
+                                <span class="meta-value">Oil on Canvas</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Dimensions:</span>
+                                <span class="meta-value">18" × 24"</span>
+                            </div>
+                        </div>
+                        
+                        <div class="artwork-description">
+                            <h3>Description</h3>
+                            <p>This intimate portrait study focuses on the subtle interplay of light and shadow across the human form. The careful attention to detail in the facial features and the dramatic lighting create a sense of depth and personality that draws the viewer into a moment of quiet contemplation.</p>
+                            
+                            <p>Executed in traditional oil painting techniques, this piece demonstrates classical portraiture methods while incorporating contemporary sensibilities. The warm color palette and soft brushwork create an atmosphere of serenity and introspection.</p>
+                            
+                            <h3>Technique</h3>
+                            <p>Using a limited palette of earth tones and careful glazing techniques, this portrait was built up in layers over several sessions. The approach emphasizes the timeless quality of oil painting while exploring modern concepts of light and form.</p>
+                        </div>
+                        
+                        <div class="artwork-navigation">
+                            <a href="artwork1.html" class="nav-artwork prev">← Previous</a>
+                            <a href="artwork3.html" class="nav-artwork next">Next →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img id="lightbox-image" src="" alt="Enlarged artwork">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Art Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

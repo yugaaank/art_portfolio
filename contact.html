@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Art Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="portfolio.html" h1 class="logo">ARTFOLIO</a>
+        <nav class="nav">
+          <a href="portfolio.html" class="nav-link">Portfolio</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="contact.html" class="nav-link active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="contact-hero">
+        <div class="container">
+          <h1 class="contact-title">Get In Touch</h1>
+          <p class="contact-subtitle">
+            Let's discuss your next creative project or artistic collaboration
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-main">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-info-section">
+              <h2>Let's Connect</h2>
+              <p class="contact-intro">
+                I'm always excited to discuss art, collaborate on projects, or
+                simply share creative ideas. Whether you're interested in
+                commissioning a piece, purchasing existing work, or exploring
+                artistic partnerships, I'd love to hear from you.
+              </p>
+
+              <div class="contact-methods">
+                <div class="contact-method">
+                  <div class="method-icon">📧</div>
+                  <div class="method-content">
+                    <h3>Email</h3>
+                    <a href="mailto:alexandra@artfolio.com"
+                      >alexandra@artfolio.com</a
+                    >
+                    <p>Best for detailed inquiries and commissions</p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="method-icon">📍</div>
+                  <div class="method-content">
+                    <h3>Studio Location</h3>
+                    <span>San Francisco, CA</span>
+                    <p>Studio visits by appointment only</p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="method-icon">📱</div>
+                  <div class="method-content">
+                    <h3>Social Media</h3>
+                    <a href="#" target="_blank">@alexandra_art</a>
+                    <p>Follow for daily inspiration and updates</p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="method-icon">⏰</div>
+                  <div class="method-content">
+                    <h3>Response Time</h3>
+                    <span>24-48 hours</span>
+                    <p>I aim to respond to all inquiries promptly</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="services-section">
+                <h3>Services Available</h3>
+                <ul class="services-list">
+                  <li>Custom Commissioned Artwork</li>
+                  <li>Original Paintings & Prints</li>
+                  <li>Art Consultation & Curation</li>
+                  <li>Workshop & Teaching</li>
+                  <li>Gallery Collaborations</li>
+                  <li>Corporate Art Projects</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="contact-form-section">
+              <div class="form-container">
+                <h2>Send a Message</h2>
+                <form class="contact-form">
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="firstName">First Name *</label>
+                      <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="lastName">Last Name *</label>
+                      <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="inquiryType">Type of Inquiry *</label>
+                    <select id="inquiryType" name="inquiryType" required>
+                      <option value="">Select an option</option>
+                      <option value="commission">Custom Commission</option>
+                      <option value="purchase">Purchase Existing Work</option>
+                      <option value="collaboration">Collaboration</option>
+                      <option value="exhibition">Exhibition Opportunity</option>
+                      <option value="workshop">Workshop/Teaching</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="budget">Budget Range (Optional)</label>
+                    <select id="budget" name="budget">
+                      <option value="">Select budget range</option>
+                      <option value="under-1000">Under $1,000</option>
+                      <option value="1000-5000">$1,000 - $5,000</option>
+                      <option value="5000-10000">$5,000 - $10,000</option>
+                      <option value="10000-plus">$10,000+</option>
+                      <option value="discuss">Prefer to discuss</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="timeline">Project Timeline</label>
+                    <select id="timeline" name="timeline">
+                      <option value="">Select timeline</option>
+                      <option value="asap">ASAP</option>
+                      <option value="1-month">Within 1 month</option>
+                      <option value="3-months">Within 3 months</option>
+                      <option value="6-months">Within 6 months</option>
+                      <option value="flexible">Flexible</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="6"
+                      placeholder="Please describe your project, vision, or inquiry in detail..."
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div class="form-group checkbox-group">
+                    <label class="checkbox-label">
+                      <input
+                        type="checkbox"
+                        name="newsletter"
+                        id="newsletter"
+                      />
+                      <span class="checkmark"></span>
+                      Subscribe to newsletter for updates and new artwork
+                      releases
+                    </label>
+                  </div>
+
+                  <button type="submit" class="submit-btn">Send Message</button>
+
+                  <p class="form-note">
+                    * Required fields. Your information will be kept
+                    confidential and used only to respond to your inquiry.
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Art Portfolio. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

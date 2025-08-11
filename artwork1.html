@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abstract Emotions - Art Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">ARTFOLIO</h1>
+            <nav class="nav">
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="artwork-detail">
+                <div class="artwork-nav">
+                    <a href="portfolio.html" class="back-btn">← Back to Portfolio</a>
+                </div>
+                
+                <div class="artwork-content">
+                    <div class="artwork-image-container">
+                        <img src="https://images.pexels.com/photos/1568607/pexels-photo-1568607.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Abstract Emotions" class="artwork-main-image">
+                        <button class="lightbox-btn" onclick="openLightbox('https://images.pexels.com/photos/1568607/pexels-photo-1568607.jpeg?auto=compress&cs=tinysrgb&w=1600')">View Full Size</button>
+                    </div>
+                    
+                    <div class="artwork-info">
+                        <h1 class="artwork-title">Abstract Emotions</h1>
+                        
+                        <div class="artwork-meta">
+                            <div class="meta-item">
+                                <span class="meta-label">Category:</span>
+                                <span class="meta-value">Abstract Art</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Year:</span>
+                                <span class="meta-value">2024</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Medium:</span>
+                                <span class="meta-value">Acrylic on Canvas</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Dimensions:</span>
+                                <span class="meta-value">24" × 36"</span>
+                            </div>
+                        </div>
+                        
+                        <div class="artwork-description">
+                            <h3>Description</h3>
+                            <p>This vibrant abstract piece explores the complex landscape of human emotion through bold colors and dynamic forms. The interplay of warm and cool tones creates a visual symphony that speaks to the viewer's subconscious, evoking feelings of joy, contemplation, and wonder.</p>
+                            
+                            <p>Created using traditional acrylic techniques with modern color theory, this painting represents a breakthrough in my artistic journey. The layered textures and spontaneous brushstrokes capture the spontaneity of emotional expression while maintaining a carefully balanced composition.</p>
+                            
+                            <h3>Inspiration</h3>
+                            <p>The inspiration for this piece came from observing the way emotions ripple through our daily experiences - sometimes subtle, sometimes overwhelming, but always present. The abstract nature allows each viewer to find their own emotional connection within the colors and forms.</p>
+                        </div>
+                        
+                        <div class="artwork-navigation">
+                            <a href="artwork8.html" class="nav-artwork prev">← Previous</a>
+                            <a href="artwork2.html" class="nav-artwork next">Next →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img id="lightbox-image" src="" alt="Enlarged artwork">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Art Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
